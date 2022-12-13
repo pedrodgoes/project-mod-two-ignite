@@ -4,7 +4,7 @@ import { GlobalStyle } from "./styles/global";
 import { createServer, Model } from "miragejs";
 import { useState } from "react";
 import { NewTransactionModal } from "./components/NewTransactionModal";
-import { TransactionProvider } from "./TransactionContext";
+import { TransactionProvider } from "./hooks/useTransactions";
 
 createServer({
   models: {
