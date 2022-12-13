@@ -30,6 +30,14 @@ createServer({
           amount: 1000,
           createdAt: new Date("2022-09-12 11:00:00"),
         },
+        {
+          id: 3,
+          title: "Carro",
+          type: "withdraw",
+          category: "Casa",
+          amount: 4000,
+          createdAt: new Date("2022-09-12 11:00:00"),
+        },
       ],
     });
   },
